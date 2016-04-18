@@ -1,8 +1,8 @@
-Sub Macro1()
+Sub body_macro()
 '
-' Macro1 Macro
+' Macro formats the body section of an IEEE document
 '
-'
+' include comments on each section
     Selection.Paste
     ActiveWindow.ActivePane.VerticalPercentScrolled = 0
     Selection.WholeStory
